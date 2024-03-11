@@ -9,6 +9,7 @@ header {
 }
 
 #content {
+    background-image: url(./resto.jpg);
     display: grid;
     grid-template-rows: 1fr 4fr;
     gap: 50px;
@@ -25,6 +26,7 @@ header {
 
 #headline {
     height: 200px;
+    width: 800px;
     margin-top: 50px;
     background-color: rgba(26, 46, 90, 0.9);
     font-size: 1.5rem;

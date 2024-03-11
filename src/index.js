@@ -1,5 +1,4 @@
 import './style.css';
-import image from './resto.jpg';
+import { pageLoad } from './init';
 
-let content = document.querySelector('#content');
-content.setAttribute('style', `background-image: url(${image})`);
+pageLoad();
